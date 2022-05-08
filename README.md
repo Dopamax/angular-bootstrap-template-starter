@@ -1,4 +1,6 @@
-# SkilltrackingAngular
+# angular-bootstrap-template-starter
+
+![alt text](https://github.com/Dopamax/angular-bootstrap-template-starter/blob/master/src/assets/img/template-screenshot.png?raw=true)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.5.
 
