@@ -1,0 +1,21 @@
+.text{
+color: black;
+}
+.text:hover{
+    color: white;
+}
+.text:active{
+    color: white;
+}
+text[tabindex]:focus {
+    color:white;
+    outline: none;
+}
+.list-item{
+color: black;
+}
+.list-item:hover{
+    background-color: rgb(38, 95, 201);
+    color: white;
+    border-radius: 5px;
+}

@@ -1,0 +1,71 @@
+.card-team-member{
+    background-color: white;
+    height: 220px;
+    width: 300px;
+    margin-top: 20px;
+    }
+    
+    .card-team-member-header{
+    position: absolute;
+    top:0;
+    }
+    
+    .team-member-avatar{
+    position: absolute;
+    top: 10px;
+    left:0px;
+    border-radius: 50px;
+    }
+    .team-member-avatar-img{
+        width: 80px;
+        border-radius: 50px;
+    }
+    
+    .team-member-name{
+    position: absolute;
+    left: 85px;
+    top: 40px;
+    font-size: medium;
+    }
+    
+    .team-member-content{
+        position: absolute;
+        top:70px;
+        width: 280px;
+        padding: 13px;
+    }
+    
+    .team-member-content-title{
+        position: relative;
+        top:20px;
+        left:8px;
+        font-size: medium;
+        font-weight: 700;
+    }
+    
+    .team-member-list-skills{
+        position: relative;
+        top: 8px;
+        left: 50px;
+        width: 200px;
+    }
+    
+    .skill-element{
+        position: relative;
+        width: 160px;
+        display: inline;
+    }
+    
+    .skill_name{
+        position: relative;
+        top:0px;
+        left: 0px;
+        font-size: medium;
+        font-weight: 600;
+    }
+    
+    .skill-level{
+        position: absolute;
+        top:0px;
+        width: 100px;
+    }

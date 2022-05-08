@@ -1,0 +1,42 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="container">
+        <div class="row row-cols-3" >
+            <div class="col" *ngFor="let u of users">
+                <div class="card-team-member">
+                    <div class="card-team-member-header">
+                        <div class="team-member-avatar">
+                            <img class="team-member-avatar-img" src="{{u.avatar}}" alt="avatar">
+                        </div>
+                        <h4 class="team-member-name">{{u.first_name}} {{u.last_name}}</h4>
+                    </div>
+
+                    <div class="team-member-content">
+                        <h4 class="team-member-content-title">Skills</h4>
+                        <ul class="team-member-list-skills list-unstyled">
+                            <li><div class="skill_element">
+                                <h4 class="skill_name">Java</h4>
+                                <div class="skill_level">
+                                    <div class="progress">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-bar bg-primary" role="progressbar" style="width: 25%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                      </div>
+                                </div>
+                            </div></li>
+                            <li><div class="skill_element">
+                                <h4 class="skill_name">Angular</h4>
+                                <div class="skill_level">
+                                    <div class="progress">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 60%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-bar bg-primary" role="progressbar" style="width: 40%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                      </div>
+                                </div>
+                            </div></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
